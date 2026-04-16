@@ -8,8 +8,8 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Mayra luíza Santos da Silva
+- Matricula:911963
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 

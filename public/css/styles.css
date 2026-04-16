@@ -93,7 +93,7 @@ section{
     height: 40px;
 }
 .banner{
-    background: url("./banner.png");
+    background: url("../img/banner.png");
     background-position: right;
     background-size: cover;
     display: flex;
@@ -300,65 +300,4 @@ button:hover{
     padding: 15px;
     background: #111;
     font-size: 14px;
-}
-@media screen and (max-width: 600px) {
-
-    header {
-        height: auto; 
-        flex-direction: column; 
-        padding: 10px;
-    }
-    .banner {
-        height: 50%;
-
-    }
-    .content h1{
-        font-size: 4rem;
-    }
-
-    .content p{
-        font-size: 2rem;
-    }
-
-    .search-form {
-        width: 100%;
-        justify-content: center;
-        margin-top: 10px;
-    }
-    
-    .container{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        display: flex;
-    }
-
-    .tabela-container{
-        width: max-content;
-    }
-    .NovoPedido{
-        width: max-content;
-    }
-    main, .container, .orientacao, .banner {
-        margin-left: 0; 
-        padding: 10px;
-    }
-
-    .orientacao {
-        grid-template-columns: 1fr;
-        width: max-content;
-        margin-left: 150px;
-    }
-
-    .cards {
-        margin-bottom: 15px;
-        justify-items: center;
-        width: 90%;
-        max-width: 300px;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center; 
-        width: 100%;
-        margin: 0;
-    }
 }
