@@ -10,13 +10,12 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 - Nome: Mayra luíza Santos da Silva
 - Matricula:911963
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida:Sistema Web para Gestão de Pedidos Industriais
+- Breve descrição sobre seu projeto:O projeto consiste no desenvolvimento de uma aplicação web, destinada ao controle e organização de pedidos de serviços industriais. O sistema permite registrar novos pedidos, acompanhar o status de cada serviço, definir prazos e armazenar informações dos clientes.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Desktop 1](img/desktop)
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
 <<  COLOQUE A IMAGEM AQUI >>
