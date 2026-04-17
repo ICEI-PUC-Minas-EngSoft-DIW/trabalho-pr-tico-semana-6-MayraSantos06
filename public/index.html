@@ -12,18 +12,17 @@
 <body class="bg-black text-light" >
     <header class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
         <div class="container-fluid">
-        <section>
+
             <a class="navbar-brand" href="#">
                 <img src="img/Logo moderno e industrial de pedidos.png"
                 height="50">
             </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-
                 <span class="navbar-toggler-icon"></span>
-
             </button>
-            <div class="collapse navbar-collapse" id="menu">
 
+            <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav me-auto">
 
                     <li class="nav-item">
@@ -47,7 +46,6 @@
                 <form class="d-flex">
 
                     <input class="form-control me-2" type="search" placeholder="Buscar pedidos...">
-
                     <button class="btn btn-warning">Buscar</button>
 
                 </form>
@@ -57,186 +55,176 @@
         </div>
     </header>
 
-    <main class="banner">
-        <section id="#home">
+    <main class="banner" >
+        <section id="home">
+
             <div class="content">
                 <h1>Bem-vindo ao Gestor de Pedidos</h1>
                 <p>Sua ferramenta completa para organizar, acompanhar e finalizar serviços industriais com eficiência e rapidez.</p>
-                <button type="submit">+ Novo Pedido</button>
+                <button class="btn btn-warning">+ Novo Pedido</button>
             </div>
+
         </section>
     </main>
 
     <section class="container my-5">
+        <div class="row text-center g-4">
 
-    <div class="row text-center g-4">
+            <div class="col-md-4">
 
-        <div class="col-md-4">
+                <div class="card bg-danger text-light p-3">
 
-        <div class="card bg-danger text-light p-3">
+                    <img src="img/line-chart.png" class="mx-auto mb-3" width="80">
 
-            <img src="img/line-chart.png"
-                class="mx-auto mb-3"
-                width="80">
+                    <h3>Controle Total</h3>
 
-            <h3>Controle Total</h3>
-
-            <p>
+                    <p>
                 Acompanhe cada etapa do seu pedido
                 em tempo real.
-            </p>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card bg-danger text-light p-3">
+
+                    <img src="img/calendar.png" class="mx-auto mb-3" width="80">
+
+                    <h3>Prazos Rigorosos</h3>
+
+                    <p>Nunca mais perca uma data importante.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card bg-danger text-light p-3">
+
+                    <img src="img/user.check.png" class="mx-auto mb-3" width="80">
+
+                    <h3>Base de Clientes</h3>
+
+                    <p>Mantenha o histórico dos serviços.</p>
+
+                </div>
+
+            </div>
 
         </div>
-
-        </div>
-
-        <div class="col-md-4">
-
-        <div class="card bg-danger text-light p-3">
-
-            <img src="img/calendar.png"
-                class="mx-auto mb-3"
-                width="80">
-
-            <h3>Prazos Rigorosos</h3>
-
-            <p>
-            Nunca mais perca uma data importante.
-            </p>
-
-        </div>
-
-        </div>
-
-        <div class="col-md-4">
-
-        <div class="card bg-danger text-light p-3">
-
-            <img src="img/user.check.png"
-                class="mx-auto mb-3"
-                width="80">
-
-            <h3>Base de Clientes</h3>
-
-            <p>
-            Mantenha o histórico dos serviços.
-            </p>
-
-        </div>
-
-        </div>
-
-    </div>
 
     </section>
 
-    <section>
-        <div class="container">
+    <section class="container my-5">
+        
             <h2>Pedidos Recentes</h2>
             
             <div class="table-responsive">
-            <table class="table table-striped table-dark">
-                <thead>
-                    <tr>
-                        <th>Clientes</th>
-                        <th>Serviços</th>
-                        <th>Prazo</th>
-                        <th>Status</th>
-                        <th>Ação</th>
-                    </tr>
-                </thead>
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Clientes</th>
+                            <th>Serviços</th>
+                            <th>Prazo</th>
+                            <th>Status</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Nome do Cliente</td>
-                        <td>Portão de ferro</td>
-                        <td><input type="date"></td>
-                        <td><span class="andamento">Em andamento</span></td>
-                        <td>Foto</td>
-                    </tr>
-                </tbody>
-            </table>
+                    <tbody>
+                        <tr>
+                            <td>Nome do Cliente</td>
+                            <td>Portão de ferro</td>
+                            <td><input type="date"></td>
+                            <td><span class="badge bg-warning text-dark">Em andamento</span></td>
+                            <td>Foto</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <form class="card p-4 bg-danger text-light">
-                <h2>Novo Pedido</h2>
+                <form class="card p-4 bg-danger text-light">
+                    <h2>Novo Pedido</h2>
 
-                <label>Cliente:</label><br>
-                <input type="text" class="form-control" name="Cliente"><br>
+                    <label>Cliente:</label><br>
+                    <input type="text" class="form-control" name="Cliente"><br>
 
-                <label>Serviços:</label><br>
-                <input type="text" class="form-control" name="Serviço"><br>
+                    <label>Serviços:</label><br>
+                    <input type="text" class="form-control" name="Serviço"><br>
 
-                <label>Prazo:</label><br>
-                <input type="date" class="form-control" name="Prazo"><br>
+                    <label>Prazo:</label><br>
+                    <input type="date" class="form-control" name="Prazo"><br>
 
-                <label>Status:</label><br>
-                <select type="status" class="form-control" name="Status">
-                    <option class="andamento">Em andamento</option>
-                    <option class="pronto">Pronto</option>
-                    <option class="entregue">Entregue</option>
-                    <option class="pago">Pago</option>
-                </select>  
+                    <label>Status:</label><br>
+                    <select type="status" class="form-control" name="Status">
+                        <option class="andamento">Em andamento</option>
+                        <option class="pronto">Pronto</option>
+                        <option class="entregue">Entregue</option>
+                        <option class="pago">Pago</option>
+                    </select>  
 
-                <label>Descrição:</label><br>
-                <textarea type="descrição" class="form-control" name="Descrição"></textarea><br>
+                    <label>Descrição:</label><br>
+                    <textarea type="descrição" class="form-control" name="Descrição"></textarea><br>
 
-                <label>imagem:</label><br>
-                <input class="imagem" type="file" name="imagem"><br>
+                    <label>imagem:</label><br>
+                    <input type="file" class="form-control"><br>
 
-                <button type="submit">Salvar</button>
-            </form>
-        </div>
+                    <button type="submit" class="btn btn-warning w-100">Salvar</button>
+                </form>
+            </div>
     </section>
 
     <footer class="bg-dark text-light mt-5">
 
-    <div class="container py-4">
+        <div class="container py-4">
 
-        <div class="row">
+            <div class="row">
 
-        <div class="col-md-3">
-            <img src="img/Logo moderno e industrial de pedidos.png"
-                height="50">
+                <div class="col-md-3">
+                    <img src="img/Logo moderno e industrial de pedidos.png" height="50">
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5>Links</h5>
+
+                    <ul class="list-unstyled">
+
+                        <li><a class="text-light" href="#">Home</a></li>
+                        <li><a class="text-light" href="#">Pedido</a></li>
+                        <li><a class="text-light" href="#">Registros</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5>Contato</h5>
+
+                    <p>📞 (38) 99999-9999</p>
+                    <p>📧 contato@gestorpedidos.com</p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5>Redes</h5>
+
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                    <p>WhatsApp</p>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="col-md-3">
-
-            <h5>Links</h5>
-
-            <ul class="list-unstyled">
-
-            <li><a class="text-light" href="#">Home</a></li>
-            <li><a class="text-light" href="#">Pedido</a></li>
-            <li><a class="text-light" href="#">Registros</a></li>
-
-            </ul>
-
-        </div>
-
-        <div class="col-md-3">
-
-            <h5>Contato</h5>
-
-            <p>📞 (38) 99999-9999</p>
-            <p>📧 contato@gestorpedidos.com</p>
-
-        </div>
-
-        <div class="col-md-3">
-
-            <h5>Redes</h5>
-
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>WhatsApp</p>
-
-        </div>
-
-        </div>
-
-    </div>
-
-</footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
